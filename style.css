@@ -370,12 +370,13 @@ main {
 }
 
 .nav-item p {
-    font-size: .9rem;
+    font-size: .7rem;
     font-weight: 600;
     color: #fff;
 }
 
 .category-items {
+    font-size: 10px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
@@ -384,6 +385,7 @@ main {
 }
 
 .category-item .item-img {
+    font-size: 10px;
     width: 85%;
     height: 150px;
     background: var(--main-light);
